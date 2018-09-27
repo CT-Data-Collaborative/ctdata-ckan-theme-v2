@@ -80,10 +80,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        ctdata-theme=ckanext.ctdata-theme.plugin:Ctdata-ThemePlugin
-
-        [babel.extractors]
-        ckan = ckan.lib.extract:extract_ckan
+        ctdata_theme=ckanext.ctdata_theme.plugin:Ctdata_ThemePlugin
     ''',
 
     # If you are changing from the default layout of your extension, you may

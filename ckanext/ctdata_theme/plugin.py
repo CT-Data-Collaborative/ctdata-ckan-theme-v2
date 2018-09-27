@@ -2,7 +2,7 @@ import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 
 
-class Ctdata-ThemePlugin(plugins.SingletonPlugin):
+class Ctdata_ThemePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
 
     # IConfigurer
